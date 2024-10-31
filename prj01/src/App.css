@@ -1,10 +1,11 @@
 body, html {
   height: 100%;
+  width: auto;
   margin: 0;
-  display: flex;
+  display: gird;
   justify-content: center;
   align-items: center;
-  background-color: #f8f9fa; /* Cor de fundo opcional */
+  background-color:azure; 
 }
 
 .game {
@@ -14,7 +15,7 @@ body, html {
 }
 
 .game-board {
-  margin-bottom: 20px; /* Espaço entre o tabuleiro e as informações do jogo */
+  margin-bottom: 20%; 
 }
 
 .board-row {
@@ -25,5 +26,26 @@ h1 {
   font-family: "Rakkas", serif;
   font-weight: 400;
   font-style: normal;
-  color: darkblue;
+  color: rgb(66, 66, 121);
+}
+
+.irPara{
+  background-color: rgb(168, 223, 224);
+}
+
+.square{
+  background-color: rgb(165, 214, 214);
+  width: 50px; 
+  height: 50px;
+  font-size: 24px;
+  padding: 0%;
+}
+
+.itens{
+  color: rgb(0, 127, 238);
+  padding: 0%;
+}
+
+.statuss{
+  font-family: "Rakkas", serif;
 }
